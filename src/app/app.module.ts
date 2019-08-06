@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { GraficosComponent } from './pages/graficos/graficos.component';
+import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { GraficosComponent } from './pages/graficos/graficos.component';
     LoginComponent,
     NopagefoundComponent,
     DashboardComponent,
-    GraficosComponent
+    GraficosComponent,
+    PagesComponent
   ],
   imports: [
     BrowserModule,
